@@ -5,7 +5,7 @@ program retorno_alternativo
     real x
 
     read(*,*) x
-    call sub(x, 1, *100, *200)
+    call sub(x, 2, *100, *200)
     print*, "Success:", x 
 
 100 print*, "Negative input value"
